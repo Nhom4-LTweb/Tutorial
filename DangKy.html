@@ -23,7 +23,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="#">
-                <img src="E:\LT web\T4\cooltext207425322529408.png">
+                <img src="http://r55.cooltext.com/rendered/cooltext208574534250327.png">
               </a>
             </div>
 
@@ -130,11 +130,11 @@ legend {
 <div class="form-group">
     <label for="firstname" class="col-sm-2 control-label">Họ</label>
     <div class="col-sm-4 has-feedback has-error">
-      <input type="text" class="form-control" name="firstname" id="firstname" placeholder="First Name" data-bv-field="firstname"><i class="form-control-feedback glyphicon glyphicon-remove" data-bv-icon-for="firstname" style="top: 0px;"></i>
+      <input type="text" class="form-control" name="firstname" id="firstname" placeholder="tên đầu" data-bv-field="firstname"><i class="form-control-feedback glyphicon glyphicon-remove" data-bv-icon-for="firstname" style="top: 0px;"></i>
     <small class="help-block" data-bv-validator="notEmpty" data-bv-for="firstname" data-bv-result="INVALID" style="">A First Name is mandatory</small><small class="help-block" data-bv-validator="regexp" data-bv-for="firstname" data-bv-result="VALID" style="display: none;">Alphabetical characters, hyphens and spaces</small></div>
     <label for="lastname" class="col-sm-2 control-label">Tên</label>
     <div class="col-sm-4 has-feedback has-error">
-      <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Last Name" data-bv-field="lastname"><i class="form-control-feedback glyphicon glyphicon-remove" data-bv-icon-for="lastname" style="top: 0px;"></i>
+      <input type="text" class="form-control" name="lastname" id="lastname" placeholder="tên cuối" data-bv-field="lastname"><i class="form-control-feedback glyphicon glyphicon-remove" data-bv-icon-for="lastname" style="top: 0px;"></i>
     <small class="help-block" data-bv-validator="notEmpty" data-bv-for="lastname" data-bv-result="INVALID" style="">A Last Name is required</small><small class="help-block" data-bv-validator="regexp" data-bv-for="lastname" data-bv-result="VALID" style="display: none;">Alphabetical characters, hyphens and spaces</small></div>
 </div>
 <div class="form-group difposhelpblock">
@@ -156,8 +156,9 @@ legend {
 <div class="form-group">
     <label for="address" class="col-sm-2 control-label">Địa chỉ</label>
     <div class="col-sm-4 has-feedback has-error">
-        <input type="text" class="form-control" name="address" id="address" placeholder="Street + No" data-bv-field="address"><i class="form-control-feedback glyphicon glyphicon-remove" data-bv-icon-for="address" style="top: 0px;"></i>
+        <input type="text" class="form-control" name="address" id="address" placeholder="đường + số nhà" data-bv-field="address"><i class="form-control-feedback glyphicon glyphicon-remove" data-bv-icon-for="address" style="top: 0px;"></i>
     <small class="help-block" data-bv-validator="notEmpty" data-bv-for="address" data-bv-result="INVALID" style="">A Streetname and Number is required</small></div>
+    
     <label for="city" class="col-sm-2 control-label">Thành phố</label>
     <div class="col-sm-4">
     <input type="text" class="form-control" list="cities" name="city" id="city" placeholder="Thành phố">
@@ -174,7 +175,7 @@ legend {
 <div class="form-group">
     <label for="phone" class="col-sm-2 control-label">Số điện thoại</label>
     <div class="col-sm-4">
-        <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number">
+        <input type="tel" class="form-control" name="phone" id="phone" placeholder="Số điện thoại">
     </div>
     <label for="email" class="col-sm-2 control-label">Email</label>
     <div class="col-sm-4 has-feedback has-error">
@@ -185,7 +186,16 @@ legend {
     <div class="col-sm-offset-2 col-sm-10">
         <button type="submit" class="btn btn-warning" name="submitted" id="submitted" disabled="disabled">Submit</button>
     </div>
-</div>
+<legend>Phần riêng</legend>
+  <form>
+  <fieldset disabled>
+    <div class="form-group">
+      <label for="disabledTextInput">Không thao tác</label>
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+    </div>  
+  </fieldset>
+</form>
+
 </form>
 </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
